@@ -1,0 +1,51 @@
+body {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  color: #28352f;
+  background: #f6f5f0;
+}
+
+h1 {
+  color: #527461;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  color: white;
+  background: #527461;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.task-item input {
+  flex: 0;
+}
+
+.task-item .done {
+  color: #777;
+  text-decoration: line-through;
+}
+
+.task-item button {
+  margin-left: auto;
+  background: #777;
+}
