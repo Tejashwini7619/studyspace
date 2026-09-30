@@ -16,3 +16,4 @@ Open `index.html` in a web browser.
 ## Built with
 
 HTML, CSS, and JavaScript
+[Open Studyspace](https://tejashwini7619.github.io/studyspace/)
